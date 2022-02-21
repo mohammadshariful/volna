@@ -7,7 +7,7 @@
 }
 body {
   font-family: "Poppins", sans-serif !important;
-  background-color: #16151a;
+  background-color: #16151a !important;
 }
 /* background-color */
 .bg-color1 {
@@ -37,6 +37,9 @@ body {
 }
 .text-color3 {
   color: #25a56a;
+}
+.text-color4 {
+  color: #2f80ed;
 }
 /* 
  */
@@ -84,6 +87,10 @@ nav {
   color: #25a56a;
 }
 .sing-in:hover {
+  color: #25a56a;
+}
+.hover-color:hover {
+  transition: 0.5s;
   color: #25a56a;
 }
 
