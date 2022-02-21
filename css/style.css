@@ -137,10 +137,29 @@ p {
 .link-two:hover {
   color: #25a56a !important;
 }
+/* new release song styles section */
+.thumbnail {
+  overflow: hidden;
+}
+.thumbnail:hover img {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.sub-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.thumbnail:hover .sub-info {
+  display: none;
+}
+
 /* 
  */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #sidebar {
     display: none;
     position: sticky;
@@ -168,5 +187,11 @@ p {
     position: absolute;
     top: 12px;
     right: 15px;
+  }
+  .icons {
+    font-size: 12px !important;
+  }
+  .caption {
+    font-size: 12px !important;
   }
 }
