@@ -95,13 +95,13 @@ nav {
 }
 
 #carusel {
-  height: 60vh;
+  height: 90vh;
   overflow: hidden;
 }
 
 #carusel img {
   width: 100vw;
-  height: 60vh;
+  height: 90vh;
   object-fit: cover;
 }
 .content {
