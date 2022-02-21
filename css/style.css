@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+/* utilities styles */
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: #16151a;
+}
+/* background-color */
+.bg-color1 {
+  background-color: #16151a;
+}
+.bg-color2 {
+  background-color: #25a56a;
+}
+.bg-color3 {
+  background-color: #222227;
+}
+.bg-color4 {
+  background-color: #2f80ed;
+}
+.bg-color5 {
+  background-color: #eb5757;
+}
+.bg-color6 {
+  background-color: #c0c0c0;
+}
+/* text color */
+.text-color1 {
+  color: #c0c0c0;
+}
+.text-color2 {
+  color: #eb5757;
+}
+.text-color3 {
+  color: #25a56a;
+}
+/* 
+ */
+.sidebar-main {
+  height: 100vh;
+  border-right: 1px solid #c0c0c0;
+}
+.sidebar-name,
+.header-menu {
+  display: flex;
+  height: 50px;
+}
+
+li:hover .li-icon {
+  color: #25a56a;
+  transition: 0.5s;
+}
+li:hover .li-text {
+  color: #fff;
+  transition: 0.5s;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#badge {
+  padding: 2px 5px !important;
+}
+#search-product {
+  width: 300px !important;
+  border: none !important;
+  outline: none !important;
+  padding: 10px 12px !important;
+  background-color: #222227;
+  color: #fff;
+  border-radius: 7px !important;
+}
+.input-search {
+  position: relative;
+}
+.fa-search:hover {
+  color: #25a56a;
+}
+.sing-in:hover {
+  color: #25a56a;
+}
+
+/* 
+ */
+
+@media screen and (max-width: 768px) {
+  #sidebar {
+    display: none;
+    position: fixed;
+  }
+  .sidebar-main {
+    padding-left: 20px !important;
+  }
+  #search-product {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .close-item {
+    display: none;
+  }
+  .fa-bars-staggered {
+    display: none;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+  }
+}
